@@ -18,7 +18,7 @@ This project focuses on predicting the burned area in Thailand during March 2024
 
 ## [Report](/project.md)
 
-## [Code](/Maneenoi_C204Final)
+## [Code](/Maneenoi_C204Final.ipynb)
 
 
 
