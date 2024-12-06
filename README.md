@@ -2,7 +2,7 @@
 
 # Predicting Burned Area in Thailand during March 2024
 
-Jeep Maneenoi <img align="right" height="470" src="/assets/IMG/Intro.png">
+Jeep Maneenoi <img align="right" height="440" src="/assets/IMG/Intro.png">
 
 Department of Atmospheric and Oceanic Sciences, UCLA
 
