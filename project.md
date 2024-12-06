@@ -31,11 +31,19 @@ The Geo-Informatics and Space Technology Development Agency (GISTDA), a public o
 
 The GISTDA burned area shapefile served as the foundation for creating a reference burned area dataset for Thailand. The burned area resolution was downscaled by aggregating burned area polygons within a 0.1° latitude/longitude grid, resulting in units of square kilometers (km²) (Fig. 1a). The gridded reference burned areas were transformed using a log10 scale to address data imbalance, as the majority of the grids had values close to zero. Within each grid, the dominant crop type (i.e., the crop covering the largest summed burned areas) was identified and assigned as the representative crop type. This approach simplified integration into predictive models. The resulting map of dominant crop types is shown in Figure 1b.
 
+<img align="center" width="900" height="550" src="/assets/IMG/Fig1.png"> 
+
 ### 2.2 Summed Burned Area and Averaged FRP from VIIRS
 
-For each satellite, VIIRS fire detection data for March 2024 was processed by aggregating detections within each 0.1° latitude/longitude grid. The total burned area was estimated by summing detection counts per grid and multiplying by the pixel resolution (375m x 375m) (Fig. 3). These burned areas were converted to square meters (m²) and transformed using a log10 scale to address data imbalance (Fig. 4). 
+For each satellite, VIIRS fire detection data for March 2024 was processed by aggregating detections within each 0.1° latitude/longitude grid. The total burned area was estimated by summing detection counts per grid and multiplying by the pixel resolution (375m x 375m) (Fig. 2). These burned areas were converted to square meters (m²) and transformed using a log10 scale to address data imbalance (Fig. 3). 
 
-Similarly, gridded FRP data was aggregated over the same grids and time period, with values averaged rather than summed for each grid (Fig. 5). The averaged FRP data was then converted from megawatts to watts and transformed using a log10 scale to achieve data balance and suitability for model fitting (Fig. 6).
+<img align="center" width="900" src="/assets/IMG/Fig2.png"> 
+<img align="center" width="900" src="/assets/IMG/Fig3.png"> 
+
+Similarly, gridded FRP data was aggregated over the same grids and time period, with values averaged rather than summed for each grid (Fig. 4). The averaged FRP data was then converted from megawatts to watts and transformed using a log10 scale to achieve data balance and suitability for model fitting (Fig. 5).
+
+<img align="center" width="900" src="/assets/IMG/Fig4.png"> 
+<img align="center" width="900" src="/assets/IMG/Fig5.png"> 
 
 ## 3. Modeling
 
