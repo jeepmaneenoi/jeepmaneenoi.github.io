@@ -1,8 +1,8 @@
-**Hi, welcome to my AOS C204 final project!** <img align="right" width="220" height="220" src="/assets/IMG/Intro.png">
+**Hi, welcome to my AOS C204 final project!** 
 
 # Predicting Burned Area in Thailand during March 2024
 
-Jeep Maneenoi
+Jeep Maneenoi <img align="right" height="400" src="/assets/IMG/Intro.png">
 
 Department of Atmospheric and Oceanic Sciences, UCLA
 
